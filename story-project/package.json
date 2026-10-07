@@ -1,0 +1,17 @@
+{
+  "name": "story-project",
+  "version": "1.0.0",
+  "description": "A local story sharing platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.4.1",
+    "express": "^5.1.0",
+    "express-session": "^1.19.0",
+    "multer": "^2.2.0"
+  }
+}

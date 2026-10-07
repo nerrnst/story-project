@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Share Your Story</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            Story Project
+        </div>
+
+        <nav>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="create.html">
+                Share Story
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="form-section">
+
+            <div class="form-container">
+
+                <h1>
+                    Share Your Story
+                </h1>
+
+                <p>
+                    Tell the world something worth reading.
+                </p>
+
+
+                <form id="story-form">
+
+                    <label for="title">
+                        Story Title
+                    </label>
+
+                    <input
+                        type="text"
+                        id="title"
+                        placeholder="Enter your story title"
+                        required
+                    >
+
+
+                    <label for="author">
+                        Your Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="author"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+
+                    <label for="category">
+                        Category
+                    </label>
+
+                    <select id="category" required>
+
+                        <option value="">
+                            Select a category
+                        </option>
+
+                        <option value="Romance">
+                            Romance
+                        </option>
+
+                        <option value="Comedy">
+                            Comedy
+                        </option>
+
+                        <option value="Horror">
+                            Horror
+                        </option>
+
+                        <option value="Drama">
+                            Drama
+                        </option>
+
+                        <option value="Adventure">
+                            Adventure
+                        </option>
+
+                        <option value="Inspirational">
+                            Inspirational
+                        </option>
+
+                        <option value="Real Life">
+                            Real Life
+                        </option>
+
+                    </select>
+
+
+                    <label for="content">
+                        Your Story
+                    </label>
+
+                    <textarea
+                        id="content"
+                        rows="12"
+                        placeholder="Write your story here..."
+                        required
+                    ></textarea>
+
+<label for="image">
+    Story Image
+</label>
+
+<input
+    type="file"
+    id="image"
+    name="image"
+    accept="image/*"
+>
+                    <button
+                        type="submit"
+                        class="btn primary full"
+                    >
+                        Publish Story
+                    </button>
+
+                </form>
+
+
+                <p
+                    id="message"
+                    class="message"
+                ></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="js/create.js"></script>
+
+</body>
+
+</html>
